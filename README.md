@@ -45,4 +45,6 @@ Enlaces de interés 👀
 
 [Video de funcionamiento(Diseños)] - https://www.youtube.com/watch?v=VrZaWKqIW18
 
-[Enlace a Mockups] - https://drive.google.com/drive/u/1/folders/1KjTK7eZbqGha128t8w39n_fXFMTUolyg
+[Enlace a Mockups] - https://drive.google.com/drive/u/1/folders/1yUIqRiVi0r0osrqX1WRTRDk6M-Z8TaUC
+
+[Enlace a Documento PDF con explicación del sistema] - https://drive.google.com/drive/u/1/folders/1dAwEs1Qin16IsXjbKH5vzOb3uu-a74A8
