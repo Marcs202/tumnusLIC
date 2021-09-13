@@ -34,7 +34,7 @@ Licencia 📄
 
 Este proyecto está bajo la licencia Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0) Que establece:
 
-Usted es libre de: Compartir — copiar y redistribuir el material en cualquier medio o formato Adaptar — remezclar, transformar y construir a partir del material. 
+Usted es libre de: Compartir, copiar y redistribuir el material en cualquier medio o formato Adaptar — remezclar, transformar y construir a partir del material. 
 La licenciante no puede revocar estas libertades en tanto usted siga los términos de la licencia.
 
 
