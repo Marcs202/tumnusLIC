@@ -4,7 +4,7 @@
 *Proyecto TUMNUS*
 En este proyecto se desarrolla, la creación de una tienda online para lo que sería en un futuro, una tienda real de ropa y calzado.
 
-Herramientas 🛠️
+Herramientas Principales🛠️
 
 [Balsamiq Mockups 3.5] https://balsamiq.com/wireframes/mockups3fordesktop/ - Framework para formar diseños de nuestro proyecto.
 
