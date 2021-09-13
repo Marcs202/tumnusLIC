@@ -12,6 +12,8 @@ sistema.
 [Visual Studio] https://code.visualstudio.com/download - Editor de código fuente que les permitirá a nuestros desarrolladores la creación de nuestro
 sitio web.
 
+
+
 Autores ✒️
 
 Jeffrey Xavier Portillo Saravia - Diseños.						
@@ -24,12 +26,16 @@ Rodrigo Fernando Rivas Cerón - Creación de espacio en Trello e investigación 
 
 Daniel Santos Miranda López - Creación de documentación y presupuesto.						
 
+
+
 Licencia 📄
 
 Este proyecto está bajo la licencia Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0) Que establece:
 
 Usted es libre de: Compartir — copiar y redistribuir el material en cualquier medio o formato Adaptar — remezclar, transformar y construir a partir del material. 
 La licenciante no puede revocar estas libertades en tanto usted siga los términos de la licencia.
+
+
 
 Enlaces de interés 👀
 
