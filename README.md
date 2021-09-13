@@ -7,8 +7,10 @@ En este proyecto se desarrolla, la creación de una tienda online para lo que se
 Herramientas 🛠️
 
 [Balsamiq Mockups 3.5] https://balsamiq.com/wireframes/mockups3fordesktop/ - Framework para formar diseños de nuestro proyecto.
+
 [diagrams.net] http://iyfbodn.com/?dn=diagramas.net&pid=9POT3387I - Será una herramienta muy necesaria para la realización de nuestros diagramas del
 sistema.
+
 [Visual Studio] https://code.visualstudio.com/download - Editor de código fuente que les permitirá a nuestros desarrolladores la creación de nuestro
 sitio web.
 
