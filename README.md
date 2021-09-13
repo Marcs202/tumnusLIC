@@ -20,7 +20,7 @@ Autores ✒️
 
 Jeffrey Xavier Portillo Saravia - Diseños.						
 
-Manuel de Jesús Hernández Sorto - Diseños y creación de repositorio.	
+Marcos de Jesús Hernández Sorto - Diseños y creación de repositorio.	
 
 William Ernesto Rodríguez Reyes - Diagramas UML.								
 
