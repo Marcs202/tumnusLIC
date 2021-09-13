@@ -14,7 +14,11 @@ sitio web.
 
 Autores ✒️
 
-Jeffrey Xavier Portillo Saravia - Diseños.										Manuel de Jesús Hernández Sorto - Diseños y creación de repositorio.						William Ernesto Rodríguez Reyes - Diagramas UML.								Rodrigo Fernando Rivas Cerón - Creación de espacio en Trello e investigación de licencias.							Daniel Santos Miranda López - Creación de documentación y presupuesto.						
+Jeffrey Xavier Portillo Saravia - Diseños.										
+Manuel de Jesús Hernández Sorto - Diseños y creación de repositorio.						
+William Ernesto Rodríguez Reyes - Diagramas UML.								
+Rodrigo Fernando Rivas Cerón - Creación de espacio en Trello e investigación de licencias.							
+Daniel Santos Miranda López - Creación de documentación y presupuesto.						
 
 Licencia 📄
 
