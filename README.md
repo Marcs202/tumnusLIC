@@ -34,5 +34,7 @@ La licenciante no puede revocar estas libertades en tanto usted siga los términ
 Enlaces de interés 👀
 
 [Tablero en Trello] https://trello.com/b/SCr14kIZ/lic
+
 [Video de funcionamiento(Diseños)] - https://www.youtube.com/watch?v=VrZaWKqIW18
+
 [Enlace a Mockups] - https://drive.google.com/drive/u/1/folders/1KjTK7eZbqGha128t8w39n_fXFMTUolyg
