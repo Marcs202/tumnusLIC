@@ -1,2 +1,1 @@
-Estoy intentando fucionar este documento de mi Branch(Marcos) a la 
-rama Main
+Este codigo esta escrito en la Main
