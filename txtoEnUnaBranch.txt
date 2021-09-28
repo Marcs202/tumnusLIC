@@ -1,4 +1,0 @@
-Estoy intentando fucionar este documento de mi Branch(Marcos) a la 
-rama Main
-agrego una modificacion
-agrego una segunda modificacion
