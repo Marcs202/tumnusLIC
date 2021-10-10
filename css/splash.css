@@ -11,13 +11,7 @@ header{
     width: 1005;
     height: 100px;
 }
-header h4{
-    position: absolute;
-    left: 10%;
-    bottom: 1rem;
-    font-size: 1.6rem;
-    
-}
+
 /**Splash screen*/
 .intro{
     position:fixed;
