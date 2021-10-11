@@ -20,3 +20,7 @@ function menuBtnChange() {
    closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
  }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 174562fec004ddb9c2912e1eb31d4cb4a5c10197
