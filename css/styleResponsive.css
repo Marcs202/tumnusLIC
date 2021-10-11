@@ -1,5 +1,6 @@
 @media screen and (min-width: 481px) and (max-width: 769px){
 
+
 #titulo {
 	margin: 0px auto;
 	width: 90%;
@@ -7,15 +8,23 @@
 
 
 }
+
+
+
 #imgDesc img{
  width: 100%; /* 600/960= 62.5% */
  height: 100%;
  float: none;
 }
+
+
 #descripcion{
  width: 100%; /* 360/960=0.375*/
 
 }
+
+
+
 #descripcion p{
  margin: 20px 0px 10px 0px; /* 20/360 =5% */
  color: white;
@@ -52,6 +61,15 @@
 	width: 40%;
 	float: left;
 }
+
+
+	
+
+}
+
+
+
+
 @media screen and (min-width: 360px) and (max-width: 640px) {
 
 
