@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
 	<meta charset="utf-8">
@@ -8,18 +8,19 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/splash.css"> 
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/StyleBody.css">
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 	<title>TUMNUS|HOME</title>
 	<!-- Bootstrap CSS CDN         -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<!-- Our Custom CSS -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/StyleBody.css">
-
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 	<!-- Font Awesome JS -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-
+	<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -28,74 +29,66 @@
             <span class="logo">TUM </span><span class="logo">NUS</span>
         </h1>
     </div>
-	<div class="wrapper">
-		<!-- Sidebar  -->
-		<nav id="sidebar">
-			<div class="sidebar-header">
-				<h3>Tummus Shopp</h3>
-				<strong>TS</strong>
-			</div>
 
-			<ul class="list-unstyled components">
-				<li class="active">
-					<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
-						<i class="fas fa-home"></i>
-						Inicio
-					</a>
-
-				</li>
-				<li>
-
-					<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-						<i class="fas fa-copy"></i>
-						Categorias
-					</a>
-					<ul class="collapse list-unstyled" id="pageSubmenu">
-						<li>
-							<a href="#">Damas</a>
-						</li>
-						<li>
-							<a href="#">Caballeros</a>
-						</li>
-						<li>
-							<a href="#">Niños</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="login.html">
-						<i class="fas fa-address-card"></i>
-						Iniciar session
-					</a>
-				</li>
-				<li>
-					<a href="acerca.html">
-						<i class="fas fa-question"></i>
-						Acerca de
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="fas fa-map-marker-alt"></i>
-						Ubicacion
-					</a>
-				</li>
-
-			</ul>
-
-
-		</nav>
+	<div class="sidebar">
+		<div class="logo-details">
+			<i class='bx bx-store'></i>
+			<div class="logo_name">Tummus Shop</div>
+			<i class='bx bx-menu' id="btn" ></i>
+		</div>
+		<ul class="nav-list">
+		  <li>
+			  <i class='bx bx-search' ></i>
+			 <input type="text" placeholder="Buscar...">
+			 <span class="tooltip">Buscar</span>
+		  </li>
+		  <li>
+			<a href="#">
+				<i class='bx bx-home'></i>
+			  <span class="links_name">Inicio</span>
+			</a>
+			 <span class="tooltip">Inicio</span>
+		  </li>
+		  
+		 <li>
+		   <a href="#">
+			<i class='bx bx-user' ></i>        
+			 <span class="links_name">Iniciar sesion</span>
+		   </a>
+		   <span class="tooltip">Iniciar sesion</span>
+		 </li>
+		 <li>
+		   <a href="#">
+			<i class='bx bx-info-circle'></i>
+			 <span class="links_name">Acerca de</span>
+		   </a>
+		   <span class="tooltip">Acerca de</span>
+		 </li>
+		 <li>
+		   <a href="#">
+			<i class='bx bx-cart-alt'></i>
+			 <span class="links_name">Carrito</span>
+		   </a>
+		   <span class="tooltip">Carrito</span>
+		 </li>     
+		 <li class="profile">
+			 <div class="profile-details">
+			   <img src="img/profile.jpg" alt="profileImg">
+			   <div class="name_job">
+				 <div class="name">USER</div>
+				 <div class="job">Client/Admin</div>
+			   </div>
+			 </div>
+			 <i class='bx bx-log-out' id="log_out" ></i>
+		 </li>
+		</ul>
+	</div>
 
 		<!-- Page Content  -->
 		<div id="content">
 
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container-fluid">
-
-					<button type="button" id="sidebarCollapse" class="btn btn-dark btn-info">
-						<i class="fas fa-align-left"></i>
-						<span>MENU</span>
-					</button>
 					<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<i class="fas fa-align-justify"></i>
 					</button>
@@ -294,6 +287,16 @@
 				</button>
 			</div>
 
+			<footer>    
+				<div class="box__copyright">
+					<hr>
+					<h2>Redes Sociales</h2>
+						<a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>            
+						<a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+					<p>Todos los derechos reservados © 2021 <b>Tumnus</b></p>
+				</div>
+			</footer>
+
 	<!-- jQuery CDN - Slim version (=without AJAX) -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<!-- Popper.JS -->
@@ -316,6 +319,8 @@
 			$('#Agregar3').modal('show');
 		}
 	</script>
+	<script src="js/sideBar.js"></script>	
 	<script src="js/splash.js"></script>
+	
 </body>
 </html>
