@@ -6,10 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="css/splash.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/splash.css"> 
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-	<title>TUMMUS</title>
+	<link rel="stylesheet" href="css/styleBar.css">
+	<link rel="stylesheet" href="css/styleResponsive.css">
+	<title>TUMNUS|HOMES</title>
 	<!-- Bootstrap CSS CDN         -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<!-- Our Custom CSS -->
@@ -20,16 +22,14 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/styleResponsive.css">
-
 </head>
 
 <body>
 	<div class ="intro">
-		<h1 class = "logo-header">
-			<span class="logo">TUM </span><span class="logo">NUS</span>
-		</h1>
-	</div>
+        <h1 class = "logo-header">
+            <span class="logo">TUM </span><span class="logo">NUS</span>
+        </h1>
+    </div>
 	<div class="wrapper">
 		<!-- Sidebar  -->
 		<nav id="sidebar">
@@ -65,7 +65,7 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#">
+					<a href="login.html">
 						<i class="fas fa-address-card"></i>
 						Iniciar session
 					</a>
@@ -89,7 +89,7 @@
 		</nav>
 
 		<!-- Page Content  -->
-		<div id="contentidoMenu">
+		<div id="content">
 
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container-fluid">
@@ -119,74 +119,94 @@
 					</div>
 				</div>
 			</nav>
-			
-
-
-
 			<header>
-				<h2>Tu pones tu estilo!!</h2>
+				<h2>Tu pones el estilo!!</h2>
 			</header>
-
-
 			<section id="caja">
 				<div id="galeria">
 					<div class="cel">
 						<h1>Camiseta Caballero</h1>
 						<img src="img/camisa_fresh.jpg" alt="img circle" width="200" height="200" style="padding-bottom: 5%;" >
 						<p class="btn btn-info" onclick="abrirActualizar()">Ver detalles</a></p>
-
-
-
 					</div>
 					<div class="cel">
 						<h1>Pantalon dama</h1>
 						<img src="img/jeans.jpg" alt="imagen rounded" width="200" height="200" style="padding-bottom: 5%;">
 						<p class="btn btn-info" onclick="abrirActualizar2()">Ver detalles</a></p>
-
-
-
 					</div>
 					<div class="cel">
 						<h1>zapato de niño</h1>
 
 						<img src="img/B_Kids.jpg" alt="imagen responsive" width="200" height="200" style="padding-bottom: 5%;" >
 						<p class="btn btn-info" onclick="abrirActualizar3()">Ver detalles</a></p>
-
-
 					</div>
-
-
-
 					<div class="cel">
 						<h1>Camiseta Caballero</h1>
 						<img src="img/camisa_fresh.jpg" alt="img circle" width="200" height="200" style="padding-bottom: 5%;" >
 						<p class="btn btn-info" onclick="abrirActualizar()">Ver detalles</a></p>
-
-
-
 					</div>
 					<div class="cel">
 						<h1>Pantalon dama</h1>
 						<img src="img/jeans.jpg" alt="imagen rounded" width="200" height="200" style="padding-bottom: 5%;" >
 						<p class="btn btn-info" onclick="abrirActualizar2()">Ver detalles</a></p>
-
-
-
 					</div>
 					<div class="cel">
 						<h1>zapato de niño</h1>
 
 						<img src="img/B_Kids.jpg" alt="imagen responsive" width="200" height="200" style="padding-bottom: 5%;" >
 						<p class="btn btn-info" onclick="abrirActualizar3()">Ver detalles</a></p>
-
-
 					</div>
 
 				</div>		
 			</section>
 
-			<!-- modal 1 -->
-			<div class="modal fade" id="Agregar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		</section>
+	<!-- modal 1 -->
+		<div class="modal fade" id="Agregar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<form class="p-6 bg-light" method="post">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<img src="img/camisa_fresh.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
+
+							<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Camiseta de caballero</h4>
+
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<h5>PRECIO: $10</h5>
+								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									seleccione talla
+
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										<a class="dropdown-item" href="#">Talla M</a>
+										<a class="dropdown-item" href="#">Talla S</a>
+										<a class="dropdown-item" href="#">Talla XL</a>
+
+
+									</button>
+
+									<div class="texto" style="padding-top: 5%;">
+										<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer</p>
+									</div>
+
+
+								</div>
+								<div class="modal-footer">
+									<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+		</div>
+		<!-- modal 2 -->
+			<div class="modal fade" id="Agregar2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog" role="document">
 					<form class="p-6 bg-light" method="post">
 						<div class="modal-content">
@@ -194,14 +214,14 @@
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
-								<img src="img/camisa_fresh.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
+								<img src="img/B_Damas.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
 
-								<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Camiseta de caballero</h4>
+								<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Pantalon de dama</h4>
 
 							</div>
 							<div class="modal-body">
 								<div class="form-group">
-									<h5>PRECIO: $10</h5>
+									<h5>PRECIO: $17</h5>
 									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										seleccione talla
 
@@ -228,149 +248,76 @@
 							</div>
 						</div>
 					</div>
+				</button>
+			</div>
+		<!-- modal 3 -->
+			<div class="modal fade" id="Agregar3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<form class="p-6 bg-light" method="post">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<img src="img/B_Kids.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
 
-				</div>
+								<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Zapato de niño</h4>
 
+							</div>
+							<div class="modal-body">
+								<div class="form-group">
+									<h5>PRECIO: $25</h5>
+									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										seleccione talla
 
-
-
-
-
-				<!-- modal 2 -->
-				<div class="modal fade" id="Agregar2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-					<div class="modal-dialog" role="document">
-						<form class="p-6 bg-light" method="post">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-									<img src="img/B_Damas.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
-
-									<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Pantalon de dama</h4>
-
-								</div>
-								<div class="modal-body">
-									<div class="form-group">
-										<h5>PRECIO: $17</h5>
-										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											seleccione talla
-
-											<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												<a class="dropdown-item" href="#">Talla M</a>
-												<a class="dropdown-item" href="#">Talla S</a>
-												<a class="dropdown-item" href="#">Talla XL</a>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">Talla M</a>
+											<a class="dropdown-item" href="#">Talla S</a>
+											<a class="dropdown-item" href="#">Talla XL</a>
 
 
-											</button>
+										</button>
 
-											<div class="texto" style="padding-top: 5%;">
-												<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer</p>
-											</div>
-
-
+										<div class="texto" style="padding-top: 5%;">
+											<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer</p>
 										</div>
-										<div class="modal-footer">
-											<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
-											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-										</div>
-									</form>
-								</div>
+
+									</div>
+									<div class="modal-footer">
+										<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+									</div>
+								</form>
 							</div>
 						</div>
-					</button>
-				</div>
+					</div>
+				</button>
+			</div>
 
+	<!-- jQuery CDN - Slim version (=without AJAX) -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Popper.JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-				<!-- modal 3 -->
-				<div class="modal fade" id="Agregar3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-					<div class="modal-dialog" role="document">
-						<form class="p-6 bg-light" method="post">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-									<img src="img/B_Kids.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
-
-									<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Zapato de niño</h4>
-
-								</div>
-								<div class="modal-body">
-									<div class="form-group">
-										<h5>PRECIO: $25</h5>
-										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											seleccione talla
-
-											<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												<a class="dropdown-item" href="#">Talla M</a>
-												<a class="dropdown-item" href="#">Talla S</a>
-												<a class="dropdown-item" href="#">Talla XL</a>
-
-
-											</button>
-
-											<div class="texto" style="padding-top: 5%;">
-												<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer</p>
-											</div>
-
-
-										</div>
-										<div class="modal-footer">
-											<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
-											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</button>
-				</div>
-
-
-
-
-
-
-
-
-
-				<!-- jQuery CDN - Slim version (=without AJAX) -->
-				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-				<!-- Popper.JS -->
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-				<!-- Bootstrap JS -->
-				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
-				<script type="text/javascript">
-					$(document).ready(function () {
-						$('#sidebarCollapse').on('click', function () {
-							$('#sidebar').toggleClass('active');
-						});
-					});
-
-
-
-					function abrirActualizar() {
-
-						$('#Agregar').modal('show');
-					}
-
-
-					function abrirActualizar2() {
-
-						$('#Agregar2').modal('show');
-					}
-
-					function abrirActualizar3() {
-
-						$('#Agregar3').modal('show');
-					}
-
-				</script>
-				<script src="js/splash.js"></script>
-			</body>
-
-			</html>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#sidebarCollapse').on('click', function () {
+				$('#sidebar').toggleClass('active');
+			});
+		});
+		function abrirActualizar() {
+			$('#Agregar').modal('show');
+		}
+		function abrirActualizar2() {
+			$('#Agregar2').modal('show');
+		}function abrirActualizar3() {
+			$('#Agregar3').modal('show');
+		}
+	</script>
+	<script src="js/splash.js"></script>
+</body>
+</html>
