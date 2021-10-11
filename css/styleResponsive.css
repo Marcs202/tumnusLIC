@@ -1,0 +1,159 @@
+@media screen and (min-width: 481px) and (max-width: 769px){
+
+
+#titulo {
+	margin: 0px auto;
+	width: 90%;
+	overflow: auto;
+
+
+}
+
+
+
+#imgDesc img{
+ width: 100%; /* 600/960= 62.5% */
+ height: 100%;
+ float: none;
+}
+
+
+#descripcion{
+ width: 100%; /* 360/960=0.375*/
+
+}
+
+
+
+#descripcion p{
+ margin: 20px 0px 10px 0px; /* 20/360 =5% */
+ color: white;
+ 
+ line-height: 140%;
+ text-align:justify;
+ font-size: 1em;
+
+}
+#caja {
+	width: 90%;
+	margin: 0px auto;
+	overflow: auto;
+}
+
+.cel{
+	width: 94%;
+	padding: 1.5%;
+	margin: 20px 1.5%;
+	background-color: white;
+	border: solid 1px black; 
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+}
+
+.cel img {
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+.boton {
+	width: 40%;
+	float: left;
+}
+
+
+	
+
+}
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+
+
+#caja {
+	width: 90%;
+	margin: 0px auto;
+	overflow: auto;
+}
+
+
+	#titulo{
+		margin: 0px;
+		width: 90%;
+
+
+	}
+
+	#superior #titulo {
+		margin: 100px 0px;
+		width: 120%;
+		height: auto;
+	}
+
+	#imgDesc{
+		overflow: auto;
+		width: 100%;
+		
+	}
+
+	#imgDesc img{
+		width: 50%;
+		height: auto;
+		display: none;
+
+	}
+
+	#descripcion{
+		width: 100%;
+	}
+
+	#descripcion p{
+		margin: 20px 0px 10px 0px;
+		color: white;
+		line-height: 140%;
+		text-align: justify;
+		font-size: 0.8em;
+
+	}
+
+	.cel {
+		width: 92%;
+		padding: 10px 2px;
+		margin: 20px 1px;
+		background-color: white;
+	border: solid 1px black; 
+	border-radius: 10px;
+
+	}
+
+	.cel img{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+	}
+	.boton{
+		width: 92%;
+		margin: 5px auto;
+
+	}
+	.cel p{
+		font-size: 0.8em;
+
+	}
+	.cel h1{
+		font-size: 1em;
+	}
+
+		#galeria {
+	width: 100%;
+	height: 50%;
+	float: left;
+	margin-right: 20px;
+	}
+
+
+}
