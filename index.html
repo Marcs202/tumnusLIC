@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,22 +12,22 @@
 	<!-- Bootstrap CSS CDN         -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/StyleBody.css">
 	<link rel="stylesheet" type="text/css" href="css/styleResponsive.css">
-
 	<!-- Font Awesome JS -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
-
-<body>
+<body> <!--DESACTIVADO DE MOMENTO
 	<div class ="intro">
         <h1 class = "logo-header">
             <span class="logo">TUM </span><span class="logo">NUS</span>
         </h1>
-    </div>
+    </div>-->
 	<div class="wrapper">
 		<!-- Sidebar  -->
 		<nav id="sidebar">
@@ -39,11 +38,12 @@
 
 			<ul class="list-unstyled components">
 				<li class="active">
-					<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
-						<i class="fas fa-home"></i>
-						Inicio
-					</a>
-
+                    <div class="home-Submenu">
+                        <a href="pruebaFooter.html" >
+                            <i class="fas fa-home"></i>
+                            Inicio
+                        </a>
+                    </div>					
 				</li>
 				<li>
 
@@ -66,7 +66,7 @@
 				<li>
 					<a href="login.html">
 						<i class="fas fa-address-card"></i>
-						Iniciar session
+						Iniciar sesion
 					</a>
 				</li>
 				<li>
@@ -77,8 +77,8 @@
 				</li>
 				<li>
 					<a href="#">
-						<i class="fas fa-map-marker-alt"></i>
-						Ubicacion
+						<i class="fas fa-cart-plus"></i>
+						Carrito
 					</a>
 				</li>
 
@@ -99,8 +99,7 @@
 					</button>
 					<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<i class="fas fa-align-justify"></i>
-					</button>
-
+					</button>                    
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="nav navbar-nav ml-auto">
 							<li class="nav-item active">
@@ -125,7 +124,7 @@
 
 
 
-			<section id="caja">
+			<section id="caja"> 
 				<div id="galeria">
 					<div class="cel">
 						<h1>Camiseta Caballero</h1>
@@ -363,5 +362,60 @@
 		
 	</script>
 	<script src="js/splash.js"></script>
+    <footer>       
+        <div class="container-footer-all">         
+             <div class="container-body"> 
+                 <div class="colum1">
+                     <h1>Mas informacion de la compañia</h1> 
+                     <p>Tummus es una agencia de ventas que muestra sus imnovadores productos a sus clientes .</p> 
+                 </div>
+ 
+                 <div class="colum2">
+                     <h1>Redes Sociales</h1>
+                     <div class="row">
+                         <img src="img/facebook.png">
+                         <label><a href="https://www.facebook.com/willian.reyes.71">Siguenos en Facebook</label></a>
+                     </div>
+                     <div class="row">
+                         <img src="img/instagram.png">
+                         <label><a href="https://www.instagram.com/jeff_elmajo/?hl=es">Siguenos en Instagram</label></a>
+                     </div>                      
+                 </div>
+
+                 <div class="colum3">
+                     <h1>Informacion Contactos</h1> 
+                     <div class="row2">
+                         <img src="img/house.png">
+                         <label>Ciudadela Don Bosco, Soyapango, San Salvador.</label>
+                     </div> 
+                     <div class="row2">
+                         <img src="img/smartphone.png">
+                         <label>+503 7136-4955</label>
+                     </div>
+                     <div class="row2">
+                         <img src="img/contact.png">
+                          <label>NoHayCorreoxd@gmail.com</label>
+                     </div>
+ 
+                 </div> 
+             </div>         
+         </div>
+         
+         <div class="container-footer">
+                <div class="footer">
+                     <div class="copyright">
+                         © 2021 Todos los Derechos Reservados | <a href="">Tumnus</a>
+                     </div> 
+                     <div class="information">
+                         <a href="acerca.html">Acerca de</a> | <a href="">Categorias</a> 
+                     </div>
+                 </div> 
+             </div>
+         
+     </footer>
+    
+    </div>
+    <script src="/js/script.js"></script>
+    <script src="/js/sideBar.js"></script>    
 </body>
 </html>

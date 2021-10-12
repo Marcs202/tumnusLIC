@@ -145,6 +145,12 @@ span {
     display: block;
 }
 
+#home-Submenu{
+    color: #7386D5;
+    background: #fff;    
+}
+
+
 #sidebar ul li a:hover {
     color: #7386D5;
     background: #fff;
@@ -206,8 +212,7 @@ a.article:hover {
 ----------------------------------------------------- */
 
 #content {
-    width: 100%;
-    padding: 20px;
+    width: 100%;    
     min-height: 100vh;
     transition: all 0.3s;
 }
