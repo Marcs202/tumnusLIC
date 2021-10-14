@@ -88,46 +88,278 @@
                 <i class="fas fa-align-justify"></i>
         </button>
         <div id="caja">
-            
-                <div id="galeria">
-                    <div class="cel">
-                        <h1>Camiseta</h1>
-                        <img src="img/camisa_fresh.jpg" alt="img circle" width="200" height="200" style="padding-bottom: 5%;" >
-                        <p class="btn btn-info" onclick="abrirActualizar()">Ver detalles</a></p>
-                    </div>
-                    <div class="cel">
-                        <h1>Pantalon dama</h1>
-                        <img src="img/jeans.jpg" alt="imagen rounded" width="200" height="200" style="padding-bottom: 5%;">
-                        <p class="btn btn-info" onclick="abrirActualizar2()">Ver detalles</a></p>
-                    </div>
-                    <div class="cel">
-                        <h1>zapato de niño</h1>
-                        <img src="img/B_Kids.jpg" alt="imagen responsive" width="200" height="200" style="padding-bottom: 5%;" >
-                        <p class="btn btn-info" onclick="abrirActualizar3()">Ver detalles</a></p>
-                    </div>
-                    <div class="cel">
-                        <h1>Camiseta</h1>
-                        <img src="img/camisa_fresh.jpg" alt="img circle" width="200" height="200" style="padding-bottom: 5%;" >
-                        <p class="btn btn-info" onclick="abrirActualizar()">Ver detalles</a></p>
-                    </div>
-                    <div class="cel">
-                        <h1>Pantalon dama</h1>
-                        <img src="img/jeans.jpg" alt="imagen rounded" width="200" height="200" style="padding-bottom: 5%;" >
-                        <p class="btn btn-info" onclick="abrirActualizar2()">Ver detalles</a></p>
-                    </div>
-                    <div class="cel">
-                        <h1>zapato de niño</h1>
-    
-                        <img src="img/B_Kids.jpg" alt="imagen responsive" width="200" height="200" style="padding-bottom: 5%;" >
-                        <p class="btn btn-info" onclick="abrirActualizar3()">Ver detalles</a></p>
-                    </div>
-                </div>
-            
-        </div>
+
+			<div id="galeria">
+				<div class="cel">
+					<h2>Blusa blanca</h2>
+					<img src="img/blusa_blanca.jpg" alt="img circle" width="200" height="200" style="padding-bottom: 5%;" >
+					<p class="btn btn-info" onclick="abrirActualizar()">Ver detalles</a></p>
+				</div>
+				<div class="cel">
+					<h2>Pijama bff osos</h2>
+					<img src="img/Pijama_Osos.jpg" alt="imagen rounded" width="200" height="200" style="padding-bottom: 5%;">
+					<p class="btn btn-info" onclick="abrirActualizar2()">Ver detalles</a></p>
+				</div>
+				<div class="cel">
+					<h2>Chaqueta traje color royal</h2>
+					<img src="img/chaqueta_Royal.jpg" alt="imagen responsive" width="200" height="200" style="padding-bottom: 5%;" >
+					<p class="btn btn-info" onclick="abrirActualizar3()">Ver detalles</a></p>
+				</div>
+				<div class="cel">
+					<h2>Chaleco acolchado negro</h2>
+					<img src="img/sueter_dama.jpg" alt="img circle" width="200" height="200" style="padding-bottom: 5%;" >
+					<p class="btn btn-info" onclick="abrirActualizar4()">Ver detalles</a></p>
+				</div>
+				<div class="cel">
+					<h2>Calzado skechers deportivo casual</h2>
+					<img src="img/tenis_dama.jpg" alt="imagen rounded" width="200" height="200" style="padding-bottom: 5%;" >
+					<p class="btn btn-info" onclick="abrirActualizar5()">Ver detalles</a></p>
+				</div>
+				<div class="cel">
+					<h2>Calzado de vestir pointy</h2>
+					
+					<img src="img/tacones_dama.jpg" alt="imagen responsive" width="200" height="200" style="padding-bottom: 5%;" >
+					<p class="btn btn-info" onclick="abrirActualizar6()">Ver detalles</a></p>
+				</div>
+			</div>
+			
+		</div>  
         
     </div>
-    
-    
+    <div class="modal fade" id="Agregar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<form class="p-6 bg-light" method="post">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<img src="img/blusa_blanca.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
+
+						<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Blusa blanca</h4>
+
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<h5>PRECIO: $15.95</h5>
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								seleccione talla
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Talla M</a>
+									<a class="dropdown-item" href="#">Talla S</a>
+									<a class="dropdown-item" href="#">Talla XL</a>
+                                </button>
+                                <div class="texto" style="padding-top: 5%;">
+									<p>Blusa color blanco diseño con textura. Cuello redondo y manga corta. Prenda marca Sfera.</p>
+								</div>
+                            </div>
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+							</div>
+                        </div>
+                    </div>
+			</form>
+		</div>
+	</div>
+
+    <div class="modal fade" id="Agregar3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<form class="p-6 bg-light" method="post">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<img src="img/chaqueta_Royal.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
+
+						<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Chaqueta Royal</h4>
+
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<h5>PRECIO: $18.62</h5>
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								seleccione talla
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Talla M</a>
+									<a class="dropdown-item" href="#">Talla S</a>
+									<a class="dropdown-item" href="#">Talla XL</a>
+                                </button>
+                                <div class="texto" style="padding-top: 5%;">
+									<p>Blusa diseño sólido. Cuenta con cuello mao con detalle de revuelo y manga 3/4. Prenda marca Sfera.</p>
+								</div>
+                            </div>
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+							</div>
+                        </div>
+                    </div>
+			</form>
+		</div>
+	</div>
+
+    <div class="modal fade" id="Agregar2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<form class="p-6 bg-light" method="post">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<img src="img/Pijama_Osos.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
+
+						<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Pijama BFF Osos</h4>
+
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<h5>PRECIO: $10</h5>
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								seleccione talla
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Talla M</a>
+									<a class="dropdown-item" href="#">Talla S</a>
+									<a class="dropdown-item" href="#">Talla XL</a>
+                                </button>
+                                <div class="texto" style="padding-top: 5%;">
+									<p>Pijama para dama de dos piezas; short multicolor con estampado de oso panda y camisa bicolor azul y celeste, cuello redondo y manga corta.  Elaborada en material de algodón suave, fresco y cómodo.</p>
+								</div>
+                            </div>
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+                        </div>
+                    </div>
+			</form>
+		</div>
+	</div>
+
+    <div class="modal fade" id="Agregar4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<form class="p-6 bg-light" method="post">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<img src="img/sueter_dama.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
+
+						<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Chaleco negro acolchado</h4>
+
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<h5>PRECIO: $33.92</h5>
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								seleccione talla
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Talla M</a>
+									<a class="dropdown-item" href="#">Talla S</a>
+									<a class="dropdown-item" href="#">Talla XL</a>
+                                </button>
+                                <div class="texto" style="padding-top: 5%;">
+									<p>Chaleco diseño acolchado. Detalle de gorro, cuello redondo, cuenta con dos bolsillos frontales y cierre de zíper. Prenda marca Only.</p>
+								</div>
+                            </div>
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+                        </div>
+                    </div>
+			</form>
+		</div>
+	</div>
+
+
+    <div class="modal fade" id="Agregar5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<form class="p-6 bg-light" method="post">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<img src="img/tenis_dama.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
+
+						<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Calzado skechers deportivo casual color oro rosa</h4>
+
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<h5>PRECIO: $59.99</h5>
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								seleccione talla
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Talla 6.5</a>
+									<a class="dropdown-item" href="#">Talla 7</a>
+									<a class="dropdown-item" href="#">Talla 8</a>
+									<a class="dropdown-item" href="#">Talla 8.5</a>
+                                    <a class="dropdown-item" href="#">Talla 9</a>
+                                </button>
+                                <div class="texto" style="padding-top: 5%;">
+									<p>Calzado skechers deportivo casual color oro rosa para dama, parte superior de charol sintético metalizado y brillante, detalles de doble costura, capa superpuesta del talón con charol metalizado a juego y diseño de logotipo S de SKECHER Street, frontal con cuatro ojales de gran tamaño y cordones que parecen lazos y 
+                                        crean un look único, forro interior de tela suave con cuello y lengüeta acolchados, media suela de goma vulcanizada y suela con tracción de goma flexible.</p>
+								</div>
+                            </div>
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+                        </div>
+                    </div>
+			</form>
+		</div>
+	</div>
+
+
+    <div class="modal fade" id="Agregar6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<form class="p-6 bg-light" method="post">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<img src="img/tacones_dama.jpg" style="margin-right: auto;padding-top: 1%;" width="200" height="150">
+
+						<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Calzado de vestir pointy color negro de tacón para dama</h4>
+
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<h5>PRECIO: $33.99</h5>
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								seleccione talla
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Talla 6.5</a>
+									<a class="dropdown-item" href="#">Talla 7</a>
+									<a class="dropdown-item" href="#">Talla 8</a>
+									<a class="dropdown-item" href="#">Talla 8.5</a>
+                                    <a class="dropdown-item" href="#">Talla 9</a>
+                                </button>
+                                <div class="texto" style="padding-top: 5%;">
+									<p>Calzado de vestir de tacón estilo pointy color negro para dama, textura lisa de charol que le da un toque de elegancia y brillo a tu look favorito, perfectos para un día de trabajo o una salida por la noche. Plantilla confort y tacón alto.</p>
+								</div>
+                            </div>
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-secondary">Agregar al carrito</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+                        </div>
+                    </div>
+			</form>
+		</div>
+	</div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<!-- Popper.JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -142,16 +374,23 @@
 		});
         
         function abrirActualizar() {
-            $('#Agregar').modal('show');
-        }
-
-
+			$('#Agregar').modal('show');
+		}
         function abrirActualizar2() {
-        	$('#Agregar2').modal('show');
-        }
-        function abrirActualizar3() {
-        	$('#Agregar3').modal('show');
-        }
+			$('#Agregar2').modal('show');
+		}
+		function abrirActualizar3() {
+			$('#Agregar3').modal('show');
+		}
+				function abrirActualizar4() {
+					$('#Agregar4').modal('show');
+				}
+				function abrirActualizar5() {
+					$('#Agregar5').modal('show');
+				}
+				function abrirActualizar6() {
+					$('#Agregar6').modal('show');
+				}
 		
 	</script>
     <script>
