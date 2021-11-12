@@ -1,0 +1,12 @@
+diff a/caballeros.html b/caballeros.html	(rejected hunks)
+@@ -87,10 +87,6 @@
+ 		<button type="button" id="sidebarCollapse" class="btn btn-dark btn-info">
+ 			<i class="fas fa-align-justify"></i>
+ 		</button>
+-
+-
+-
+-
+ 		<div id="caja">
+ 
+ 			<div id="galeria">
