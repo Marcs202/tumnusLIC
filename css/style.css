@@ -5,30 +5,21 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 header {
-  background-color: #666;
+  background-color: #754747;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color:rgb(255, 255, 255);
+  border-radius: 15px;
 }
 
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #250c0c;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
-}
-
-a,
-a:hover,
-a:focus {
+a,a:hover,a:focus {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
@@ -36,7 +27,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background-color: #fff;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -57,8 +48,7 @@ a:focus {
     margin: 40px 0;
 }
 
-i,
-span {
+i,span {
     display: inline-block;
 }
 
@@ -69,22 +59,39 @@ span {
 .wrapper {
     display: flex;
     align-items: stretch;
+    
 }
 
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: black;
-    color: #fff;
+    background: rgb(61, 34, 34);
+    color: rgb(238, 238, 238);
     transition: all 0.3s;
+    font-size: 1em;
+    
+}
+#sidebar ul li a{/*expandido*/
+    visibility: visible;
+    
+}
+/*#sideebar.active es cuando esta contraido*/
+#sidebar.active p{
+    visibility: collapse;
 }
 
+#sidebar.active ul li a {/*contraido*/
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.75em;
+    
+}
 #sidebar.active {
     min-width: 80px;
     max-width: 80px;
     text-align: center;
+    
 }
-
 #sidebar.active .sidebar-header h3,
 #sidebar.active .CTAs {
     display: none;
@@ -98,18 +105,13 @@ span {
     text-align: left;
 }
 
-#sidebar.active ul li a {
-    padding: 20px 10px;
-    text-align: center;
-    font-size: 0.85em;
-}
 
 #sidebar.active ul li a i {
     margin-right: 0;
     display: block;
-    font-size: 1.8em;
+    font-size: 0em;
     margin-bottom: 5px;
-}
+}   
 
 #sidebar.active ul ul a {
     padding: 10px !important;
@@ -122,11 +124,12 @@ span {
     -webkit-transform: translateX(50%);
     -ms-transform: translateX(50%);
     transform: translateX(50%);
+    
 }
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: black;
+    background: rgb(61, 34, 34);
 }
 
 #sidebar .sidebar-header strong {
@@ -143,11 +146,18 @@ span {
     padding: 10px;
     font-size: 1.1em;
     display: block;
+    
 }
+
+#home-Submenu{
+    color: #002ad4;
+    background: #fff;    
+}
+
 
 #sidebar ul li a:hover {
     color: #7386D5;
-    background: #fff;
+    background: #313131;
 }
 
 #sidebar ul li a i {
@@ -157,7 +167,7 @@ span {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: black;
+    background: rgb(112, 66, 66);
 }
 
 a[data-toggle="collapse"] {
@@ -175,7 +185,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: black;
+    background: rgb(121, 72, 72);
 }
 
 ul.CTAs {
@@ -206,8 +216,7 @@ a.article:hover {
 ----------------------------------------------------- */
 
 #content {
-    width: 100%;
-    padding: 20px;
+    width: 100%;    
     min-height: 100vh;
     transition: all 0.3s;
 }
@@ -223,6 +232,17 @@ a.article:hover {
         text-align: center;
         margin-left: -80px !important;
     }
+    
+    #sidebar ul li a{/*expandido*/
+        visibility: visible;
+        
+    }
+    #sidebar p{ /*contraido*/
+        visibility: collapse;
+    }
+    #sidebar.active p {
+        visibility: visible;
+    }
     .dropdown-toggle::after {
         top: auto;
         bottom: 10px;
@@ -233,6 +253,7 @@ a.article:hover {
     }
     #sidebar.active {
         margin-left: 0 !important;
+        font-size: 0.75em;
     }
     #sidebar .sidebar-header h3,
     #sidebar .CTAs {
@@ -243,6 +264,7 @@ a.article:hover {
     }
     #sidebar ul li a {
         padding: 20px 10px;
+        
     }
     #sidebar ul li a span {
         font-size: 0.85em;
@@ -250,6 +272,7 @@ a.article:hover {
     #sidebar ul li a i {
         margin-right: 0;
         display: block;
+        
     }
     #sidebar ul ul a {
         padding: 10px !important;
@@ -263,4 +286,5 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+
 }

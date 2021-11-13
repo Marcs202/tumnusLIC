@@ -1,0 +1,28 @@
+.padre{
+    background: #36333d;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo{
+    background: rgb(67, 65, 57);
+    width: 18%;
+    color: rgb(231, 199, 233);
+    font-family: serif;
+    font-size: 25px;
+    height: 200px;
+}
+
+/* Seleccionará todos los elementos que esten despues de este elemento y los seleccionará */
+
+.hijo:nth-child(2)~.hijo{
+    background: #000;
+    transition: all 0.5s ease-in;
+}
+
+.hijo:nth-child(2):hover~.hijo{
+    background: #0f0b11;
+    transform: rotate(360deg);
+}
