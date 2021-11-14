@@ -5,18 +5,18 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 header {
-  background-color: #313131;
+  background-color: #754747;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color:white;
+  color:rgb(255, 255, 255);
   border-radius: 15px;
 }
 
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #250c0c;
 }
 
 a,a:hover,a:focus {
@@ -65,8 +65,8 @@ i,span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: black;
-    color: #ffff;
+    background: rgb(61, 34, 34);
+    color: rgb(238, 238, 238);
     transition: all 0.3s;
     font-size: 1em;
     
@@ -129,7 +129,7 @@ i,span {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: black;
+    background: rgb(61, 34, 34);
 }
 
 #sidebar .sidebar-header strong {
@@ -150,7 +150,7 @@ i,span {
 }
 
 #home-Submenu{
-    color: #7386D5;
+    color: #002ad4;
     background: #fff;    
 }
 
@@ -167,7 +167,7 @@ i,span {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: black;
+    background: rgb(112, 66, 66);
 }
 
 a[data-toggle="collapse"] {
@@ -185,7 +185,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: black;
+    background: rgb(121, 72, 72);
 }
 
 ul.CTAs {
