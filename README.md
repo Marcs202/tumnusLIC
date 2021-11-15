@@ -45,10 +45,12 @@ Enlaces de interés 👀
 
 [Video de funcionamiento(Diseños)] - https://www.youtube.com/watch?v=VrZaWKqIW18
 
+[Video de funcionamiento(Página web)] - https://www.youtube.com/watch?v=aqXFSdVWu3c
+
 [Enlace a Mockups] - https://drive.google.com/drive/u/1/folders/1yUIqRiVi0r0osrqX1WRTRDk6M-Z8TaUC
 
 [Enlace a Documento PDF con explicación del sistema] - https://drive.google.com/drive/u/1/folders/1dAwEs1Qin16IsXjbKH5vzOb3uu-a74A8
 
-[Enlace al manual de usuario] - https://docs.google.com/document/d/1aV1czOdJwEHQFaerpmyzJJNV6ZnOrBLF/edit?usp=sharing&ouid=103412511058286027346&rtpof=true&sd=true
+[Enlace al manual de usuario] - https://drive.google.com/drive/u/2/folders/1yWCHwiE3fRPtZneCRt7h5ms3Z_-uZt2D
 
-[Enlace al manual tecnico] - 
+[Enlace al manual tecnico] - https://drive.google.com/drive/u/2/folders/1yWCHwiE3fRPtZneCRt7h5ms3Z_-uZt2D
